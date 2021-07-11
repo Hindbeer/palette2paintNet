@@ -1,17 +1,12 @@
 # Palette2paintNet
 
-Позволяет png палитру перевести в txt пригодную для "paint.net".<br/>
-Файл `palette.png` является примером палитры!
+Allows png palette to be converted to txt suitable for "paint.net". <br/>
+The file `palette_example.png` is an example of a palette!
 
-# Обязательно для работы
+# A must for work
 
-- Файл `palette2paint.exe` должен находиться в одной папке с `palette.png` и `palette.txt`.
-- У png палитры должно быть название `palette.png`.
-- Перед запуском надо создать файл `palette.txt`, если он не был создан до этого.
-- Размеры png палитры должны быть размеры `weight: n-значение`, `height: 1 px`.
+- The file `palette2paint.exe` must be in the same folder as the palette.
+- The dimensions of the png palette must be `weight: n-value`,` height: 1 px`.
+- The palette must be in png format.
 
-# Баги
-
-- Пишите о багах в телеграм
-
-## Связаться : [Telegram](https://t.me/G0golMogol)
+## Contact : [Twitter](https://twitter.com/qweu_studio) 

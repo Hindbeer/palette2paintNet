@@ -1,6 +1,6 @@
 from PIL import Image
 
-palette_name = input(str('Название файла палитры( расширение .png указывать не надо ): '))
+palette_name = input(str('Palette file name( ".png" no need to write ): '))
 
 image = Image.open(palette_name + '.png')  # Открываем изображение
 file = open(palette_name + '.txt', 'w') # Открываем txt файл для палитры
@@ -16,5 +16,5 @@ for i in range(size[0]): # Запись палитры в файл, вывод �
     print('FF' + color_hex) # Вывод в консоль
 
 file = open(palette_name + '.txt', 'a+')
-file.write(';Палитра сделана через palette2paintNet\n;https://github.com/lukovi4ka/palette2paintNet')
-input('Готово, нажмите на enter чтобы закрыть...')
+file.write(';The palette is made through palette2paintNet\n;https://github.com/lukovi4ka/palette2paintNet')
+input('Done, hit enter to close...')
