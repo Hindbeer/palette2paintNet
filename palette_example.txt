@@ -1,5 +1,0 @@
-FF000000
-FFffffff
-FF0004ff
-;Палитра сделана через palette2paintNet
-;https://github.com/lukovi4ka/palette2paintNet
